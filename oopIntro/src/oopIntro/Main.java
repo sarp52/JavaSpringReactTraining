@@ -3,7 +3,6 @@ package oopIntro;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("---------------------------------");
 
         Product product1 = new Product(1,"Lenovo V14",15000,"16 GB Ram");
         
@@ -11,7 +10,7 @@ public class Main {
         product2.id = 2;
         product2.name = "Toshiba";
         product2.unitPrice = 6000;
-        product2.detail = "6 GB Ram";
+        product2.detail = "16 GB Ram";
         
         
         Product product3 = new Product();
