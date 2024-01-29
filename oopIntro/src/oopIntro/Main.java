@@ -4,19 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Product product1 = new Product(1,"Lenovo V14",15000,"16 GB Ram");
+        Product product1 = new Product(1,"Lenovo V14",150,"16 GB Ram");
         
         Product product2 = new Product();
         product2.id = 2;
         product2.name = "Toshiba";
-        product2.unitPrice = 6000;
+        product2.unitPrice = 600;
         product2.detail = "16 GB Ram";
         
         
         Product product3 = new Product();
         product3.id = 3;
         product3.name = "Adidas";
-        product3.unitPrice = 23000;
+        product3.unitPrice = 230;
         product3.detail = "46 GB Ram";
         
         System.out.println("---------------------------------");
