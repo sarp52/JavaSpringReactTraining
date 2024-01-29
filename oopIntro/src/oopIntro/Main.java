@@ -6,6 +6,8 @@ public class Main {
 
         Product product1 = new Product(1,"Lenovo V14",150,"16 GB Ram");
         
+        //Bu iki metod aynı sonucu verir.
+        
         Product product2 = new Product();
         product2.id = 2;
         product2.name = "Toshiba";
@@ -49,10 +51,7 @@ public class Main {
         productManager.addToCart(product1);
         productManager.addToCart(product2);
         productManager.addToCart(product3);
-
-
-
-        
+       
         System.out.println("---------------------------------");
 
 
